@@ -2,7 +2,7 @@
 using namespace std;
 void Tower(int n , char a, char b, char c ){
 	if(n==1){
-		cout<<a<<"-------"<<c<<endl;
+		cout<<a<<"------>"<<c<<endl;
 		return;
 	}
 	Tower(n-1,a,c,b);
