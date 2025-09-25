@@ -17,4 +17,13 @@ int Fibonacci (int n){
     }
     else return Fibonacci(n-1) + Fibonacci(n-2);
 }
+int main()
+{
+    int n;
+    cout<< "Nhap n: ";
+    cin>>n;
+    cout<<"Giai thua cua"<<n<<TinhGiaiThua(n);
+    cout<<endl;
+    cout<<"Gia tri Fibonacci"<<n<< Fibonacci(n);
+}
 
